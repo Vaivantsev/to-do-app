@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./assets/unsplash-image-3A4XZUopCJA.jpeg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Inter", sans-serif;
+  background-attachment: fixed;
+  
+}
+html {
+  min-height: 100%;
+}
+.toDoApp {
+  background-color: white;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(57, 57, 57, 0.21);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.toDoApp ul {
+  list-style: none;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+  display: flex;
+  gap: 10px ;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+  color: #222222;
+}
+li{
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+input{
+  padding: 5px;
+  width:calc(100% - 90px);
+  border-radius: 3px;
+  border:  solid 0.3px #343434 ;
+  height: 20px;
+  outline: none;
+
+}
+button{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: none;
+  transition: 0.2s;
+}
+button:hover{
+  background-color: #eeeeeea1;
+  border-radius: 5px ;
+  
+}
+.row button{
+  margin-left: 5px;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+ul input{
+  border: 1px solid #dddddd;
+}
